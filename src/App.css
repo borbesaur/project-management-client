@@ -1,0 +1,191 @@
+
+button{
+  border-radius: 5px;
+}
+.grn-btn{
+  width: 300px;
+  background-color: greenyellow;
+  padding: 20px;
+  font-size: 25px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.little-green-btn{
+  background-color: greenyellow;
+  padding: 10px;
+  margin: 0 5px;
+  border-radius: 7px;
+}
+
+.little-blue-btn{
+  background-color: #337ab7;
+  padding: 10px 25px;
+  margin: 0 5px;
+  border-radius: 7px;
+  color: white;
+}
+
+
+
+body{
+  background-color: #f8f4f9;
+}
+
+h1{
+  margin: 120px;
+}
+
+ input{
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 25px;
+  font-size: 17px;
+}
+
+.add-project input, .add-task input{
+  width: 80%;
+  height: 35px;
+
+}
+
+textarea{
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 80%;
+  font-size: 18px;
+  
+
+}
+
+.App{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+}
+
+
+.list{
+  margin: 0 80px;
+  width: 35%;
+}
+
+.add{
+  margin-right: 80px;
+  width: 35%;
+}
+
+@media screen and (max-width: 800px) {
+  .list, .add {
+      width: 80%;
+      margin: 0 auto;
+  }
+}
+
+
+.footer{
+  background-color: #7851A9;
+  min-height: 100px;
+  clear: both;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  padding: 25px;
+  margin-top: 100px;
+}
+
+#theBody{
+  min-height: 58vh;
+}
+
+#loginFormWrapper{
+  position: absolute;
+  right:20px;
+  top: 110px;
+  padding: 30px;
+  border: 2px solid lightslategray;
+  border-radius: 3%;
+  background-color: white;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
+  background-color: lightslategray;
+  padding: 0 5vw;
+  margin-bottom: 150px;
+}
+
+nav div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+
+
+
+.footer ul{
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  text-align: center;
+}
+
+li{
+  list-style: none;
+}
+
+
+
+.add-project, .add-task{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-project > *, .add-task *{
+  margin: 3%;
+  text-align: center;
+}
+
+.singleProjectInList{
+  border: 1px dotted navy;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  
+ 
+}
+
+.each-task-in-edit-form{
+  display: flex;
+  align-items: center;
+}
+.each-task-in-edit-form *{
+  margin: 3px;
+}
+
+button:focus{
+  outline: none;
+}
+
+button:active{
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.grn-btn:active{
+  font-weight: bolder;
+  font-size: 28px;
+}
+
+.projectDetails{
+  padding: 0 10%;
+  text-align: center;
+}
+
+
+
